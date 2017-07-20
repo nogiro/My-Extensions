@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "My first chrome extension",
+  "version": "0.0.0",
+  "description": "Hello, world!",
+  "author": "Your name",
+  "icons": {
+    "32" : "icons/tmp.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/tmp.png"
+  },
+  "background" : {
+    "scripts": ["js/background.js"]
+  }
+}
